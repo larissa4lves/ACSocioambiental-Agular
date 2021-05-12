@@ -45,4 +45,32 @@ oTipoUsuario:string
     }
   }
 
+  /* BOTAO CLICAR MOSTRAR SENHA - SENHA */
+  botaoSenha() {
+    let inputSenha = window.document.querySelector('#senha');
+
+    if(inputSenha?.getAttribute?.('type') == 'password') {
+        inputSenha.setAttribute('type', 'text')
+
+    }else {
+        inputSenha?.setAttribute('type', 'password')
+
+    }
+
+  }
+
+  /* BOTAO CLICAR MOSTRAR SENHA - CONFIRMAR SENHA */
+  mostrarSenha() {
+    let inputSenha = window.document.querySelector('#confirmasenha')
+
+      if(inputSenha?.getAttribute('type') == 'password') {
+          inputSenha.setAttribute('type', 'text')
+
+      }else {
+          inputSenha?.setAttribute('type', 'password')
+
+      }
+
+  }
+
 }

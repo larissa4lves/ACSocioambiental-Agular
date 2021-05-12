@@ -1,5 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
 
-*{
-    font-family: 'Lato', sans-serif;
+/*
+font-family: 'Oxygen', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Vollkorn', serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html, body {
+    height: 100%;
+
+    background-color: var(--background-section) !important;
+
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+:root {
+    --text-menu: #f1f1f1;
+    --text-menu-hover: #bcba63;
+    --text-input-light: #ebeabe;
+    --text-default: #262626;
+    --texte-gray: #bbbbbb;
+    --text-gray-bold: #5a5a5a;
+    --text-footer: #d8d8d2;
+
+    --color-hr: #8a8a89;
+
+    --icon: #6a961f;
+    --icon-background: #F4F3E5;
+
+    --section-developers-backgorund: #F9F9F4;
+    --section-know-more-background: #DDE1E2;
+    --background-default: #f1f1f1;
+    --background-section: #ffffff;
+    --background-desenvolvedores: #F9F9F4;
+    --background-white: #ffffff;
+    --background-footer: #262820;
+    --background-copy: #1f201c;
+
+    --overlay: #40473399; /*#20271499*/
+
+    --border-gray: #e2e2e2;
+
+    --cor-do-facebook: #1877f2;
+
 }

@@ -1,0 +1,280 @@
+.container-produtos {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--background-section);
+
+}
+
+.container-produtos .produtos{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+    width: 80%;
+    height: auto;
+
+}
+
+.container-produtos .produtos .bloco {
+    width: 31.3333%;
+    height: auto;
+
+    padding: 1%;
+    margin: 1%;
+
+}
+
+.container-produtos .produtos .bloco .img {
+    width: 100%;
+    height: auto;
+
+    overflow: hidden; /*para a imagem não aumentar inteira, continuar no limite que determinei*/
+
+}
+
+.container-produtos .produtos .bloco .img img{
+    width: 100%;
+    height: auto;
+
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform, .3s ease-in-out;
+
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+
+}
+
+.container-produtos .produtos .bloco .img img:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+
+    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+
+}
+
+.container-produtos .produtos .bloco .dados {
+  padding: 2% 0%;
+  margin: 1%;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.container-produtos .produtos .bloco .dados h2 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 700 !important;
+    font-size: 2rem;
+
+    padding: 0;
+    margin: 0;
+
+    color: var(--text-default);
+
+}
+
+.container-produtos .produtos .bloco .dados h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700 !important;
+  font-size: 1rem;
+
+  padding: 0;
+  margin: 0;
+
+  color: var(--texte-gray);
+
+}
+
+.container-produtos .produtos .bloco .dados h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900 !important;
+  font-size: 0.8rem;
+
+  padding: 0;
+  margin: 0;
+
+  color: var(--color-hr);
+
+}
+
+.container-produtos .produtos .bloco .dados p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800 !important;
+    font-size: 1rem;
+
+    color: var(--text-default);
+
+    padding: 0;
+    margin-top: 3%;
+
+}
+
+.container-produtos .banner {
+    width: 100%;
+    height: 20vh;
+
+    background-image: url(https://i.imgur.com/8tqHOaf.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.container-produtos .banner .overlay {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    background-color: var(--overlay);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-produtos .banner h2 {
+  padding: 1% 3%;
+  margin: 2%;
+
+  color: var(--text-menu);
+
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: 'Vollkorn', serif;
+
+}
+
+.container-produtos .banner .botao {
+    padding: 1% 3%;
+    margin: 2%;
+
+    background-color: var(--icon);
+
+    color: var(--text-menu-hover);
+
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-family: 'Vollkorn', serif;
+
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* MODAL */
+.texto {
+  font-family: 'Vollkorn', serif;
+
+  color: var(--text-link);
+
+}
+
+.texto-input {
+  color: var(--text-input);
+
+  font-weight: 600 !important;
+
+}
+
+.texto-bold {
+  color: var(--text-link);
+
+  font-weight: 800;
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5rem !important;
+
+  margin: 0;
+
+}
+
+.texto-link {
+  color: var(--text-link);
+
+  text-decoration: none;
+
+  transition: color, .3s ease-in-out;
+
+}
+
+.texto-link:hover {
+  color: var(--background-color-button);
+
+  text-decoration: none;
+
+}
+
+.texto-gray {
+  color: var(--text-input);
+
+}
+
+.botao {
+  padding: 1% 3%;
+
+  background-color: var(--icon);
+
+  border-radius: 5px;
+  border: none;
+
+  color: var(--text-menu);
+
+  transition: background-color, color, .3s ease-in-out;
+
+  font-weight: 800;
+
+}
+
+.botao:hover {
+  padding: 1% 3%;
+
+  background-color: var(--text-menu-hover);
+
+  border-radius: 5px;
+  border: none;
+
+  color: var(--text-menu);
+
+}
+
+.modal-header {
+  padding-bottom: 0;
+
+}
+
+label {
+  margin: 0;
+
+  font-weight: 800 !important;
+  font-size: 1rem;
+
+}
+
+
+/*.modal-content {
+  background-color: var(--text-menu-hover);
+
+}
+
+input, textarea, option, select {
+  background-color: var(--text-input-light) !important;
+
+}
+*/
+option {
+  font-weight: 700 !important;
+
+}

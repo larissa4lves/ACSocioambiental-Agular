@@ -6,7 +6,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #1f201c;
+    background-color: var(--background-footer);
 }
 
 .blocoFooter {
@@ -18,7 +18,10 @@ footer {
 
 h2 {
     font-size: 1.2rem;
+    font-weight: 800;
+
     color: #f1f1f1;
+
 }
 
 footer p {
@@ -52,12 +55,15 @@ ul {
 }
 
 a {
-    color: inherit;
-    color: var#f1f1f1;
+    color:var(--text-menu);
+
+    transition: color, .3s ease-in-out;
+
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(27, 180, 6)
+    color: var(--icon)
 }
 
 li {
@@ -72,18 +78,55 @@ li {
     justify-content: flex-start;
 }
 
+footer .blocoFooter .blocoIcones .icon {
+  margin: 2%;
+  margin-top: 10%;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--icon);
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer .blocoFooter .blocoIcones .icon .bi {
+  color: var(--icon-background);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+hr {
+  width: 100%;
+
+  border-top: 1px solid var(--color-hr);
+  border-bottom: 0px solid var(--color-hr);
+  border-right: 0px solid var(--color-hr);
+  border-left: 0px solid var(--color-hr);
+}
+
 .copy {
     display: flex;
     align-items: center;
     justify-content: center;
+
     width: 100%;
     height: auto;
-    text-align: center;
-    color: #f1f1f1;
-    background-color: #1f201c;
-}
 
-hr {
-    padding: 0;
-    margin: 0;
+    text-align: center;
+
+    color: #f1f1f1;
+
+    background-color: #1f201c;
+
+    border-top: 1px solid var(--texte-gray);
+
 }

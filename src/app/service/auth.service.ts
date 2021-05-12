@@ -9,7 +9,7 @@ import { UserLogin } from '../model/UserLogin';
   providedIn: 'root'
 })
 export class AuthService {
-url = environment.caminho + environment.port
+  url = environment.caminho + environment.port
 
   constructor(
     private http: HttpClient
@@ -24,4 +24,23 @@ url = environment.caminho + environment.port
     return this.http.post<User>(`${this.url}/usuarios/cadastrar`,user)
 
   }
+
+  logado (){
+    let ok: boolean = false
+
+    if(environment.token != ''){
+      ok = true
+    }
+
+    return ok
+  }
+
+  ajusteMenu() {
+    if(window.document.URL != '/home') {
+      window.document.querySelector('..navbar-light')?.setAttribute('style', 'position: relative !important;')
+
+    }
+
+  }
+
 }

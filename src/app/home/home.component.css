@@ -1,0 +1,751 @@
+h1, h2, h3, h4, p {
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+/*HEADER / APRESENTACAO*/
+.menu-bg{
+  background-color: rgba(236, 241, 235, 0.507);
+}
+
+.carrocel {
+  text-align: center;
+
+  width: 100%;
+  height: auto;
+
+
+}
+
+.pelicula{
+  width: 100%;
+  height: 116vh;
+
+  /*background-color: var(--overlay) !important;*/
+  background-image: linear-gradient(#282c4ea0 60%, var(--background-section));  /*3b5998*/
+
+  position: relative;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+
+  background-color: #fff;
+
+}
+
+.carousel-texto {
+  font-family: 'Vollkorn', serif !important;
+
+}
+
+.carousel-texto h1 {
+  font-family: 'Vollkorn', serif !important;
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+
+  color: var(--text-menu) !important;
+
+}
+
+.carousel-texto h3 {
+  font-family: 'Vollkorn', serif !important;
+  font-weight: 600 !important;
+  font-size: 2.5rem !important;
+
+  color: var(--text-menu) !important;
+
+}
+
+.carousel-texto p {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 1rem !important;
+
+  color: var(--text-menu) !important;
+
+}
+
+/* SECTION / CONTEUDO */
+.sobreNos {
+  /*padding: 0% 3%;*/
+
+  width: 100% !important;
+  height: auto;
+
+  /*background-color: var(--background-section);
+  background-image: linear-gradient(var(--overlay) 5%, var(--background-section) 95%);*/
+
+}
+
+.background-section {
+  padding: 0% 3%;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  background-image: url(../../assets/img/green-leaf.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+
+}
+
+.sobreNos .img {
+  padding: 8% 4% 8% 8%;
+
+  width: 40rem;
+  height: auto;
+
+}
+
+.sobreNos .img img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 30px 50px -30px var(--icon);
+
+}
+
+.sobreNos .swot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+  padding: 2%;
+
+  width: 43rem;
+  height: auto;
+
+}
+
+.sobreNos .swot .opcao {
+  width: 50%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sobreNos .swot .opcao i {
+  padding: 5%;
+
+  background-color: var(--icon-background);
+
+  color: var(--icon);
+
+  border-radius: 50%;
+
+  box-shadow: 0px 3px 5px -3px var(--icon);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+
+}
+
+.sobreNos .swot .opcao .conteudo {
+  padding: 10%;
+
+  width: 100%;
+  height: auto;
+
+}
+
+.sobreNos .swot .opcao .conteudo h2, p {
+  color: var(--text-default) !important;
+
+  padding: 1%;
+
+  width: 98%;
+  height: auto;
+
+}
+
+.sobreNos .swot .opcao .conteudo h2 {
+  font-size: 1.1rem !important;
+  font-family: 'Oxygen', sans-serif !important;
+  font-weight: 700 !important;
+
+}
+
+.sobreNos .swot .opcao .conteudo p {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+
+  color: var(--text-default);
+
+}
+
+/* SECTION / CONTEUDO */
+.atuacao {
+  width: 100%;
+  height: auto;
+
+  background-color: var(--background-section);
+  background-image: linear-gradient(var(--background-section), var(--background-desenvolvedores), var(--background-section));
+
+}
+
+.atuacao .habilidades {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.atuacao .habilidades h2, p {
+  color: var(--text-default);
+
+}
+
+.atuacao .habilidades h2 {
+  font-size: 2rem;
+  font-weight: 700;
+
+  text-align: center;
+
+  padding: 1%;
+  margin-top: 5% !important;
+
+  width: 96%;
+
+}
+
+.atuacao .habilidades p {
+  font-size: 1rem;
+  font-weight: 500;
+
+  text-align: center;
+
+  padding: 1%;
+
+  width: 96%;
+
+  color: var(--text-default);
+
+}
+
+.atuacao .habilidades hr {
+  width: 4%;
+
+  margin-top: 2%;
+
+  border-top: 2px solid var(--text-menu-hover);
+  border-right: 0px solid var(--text-default);
+  border-bottom: 0px solid var(--text-default);
+  border-left: 0px solid var(--text-default);
+
+}
+
+.atuacao .habilidades .itens {
+  margin-top: 5%;
+
+  width: 80%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+}
+
+.atuacao .habilidades .itens .bloco {
+  margin: 1%;
+  padding: 2%;
+
+  width: 17rem;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid var(--border-gray);
+  border-radius: 10px;
+
+  box-shadow: 0px 3px 5px -3px var(--icon);
+
+}
+
+.atuacao .habilidades .itens .bloco i {
+  padding: 5%;
+
+  background-color: var(--icon-background);
+
+  color: var(--icon);
+
+  border-radius: 50%;
+
+  box-shadow: 0px 3px 5px -3px var(--icon);
+
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.atuacao .habilidades .itens .bloco h2 {
+  margin-top: 10% !important;
+
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+
+  color: var(--text-default) !important;
+
+  font-size: 1.1rem !important;
+
+}
+
+.atuacao .habilidades .itens .bloco p {
+  width: 80%;
+  height: auto;
+
+  text-align: center;
+
+  font-size: 1rem !important;
+
+  color: var(--text-default) !important;
+
+}
+
+/* VIDEOS GARDEN */
+.atuacao .habilidades .videos {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+
+.atuacao .habilidades .videos .img {
+  width: 35rem;
+  height: auto;
+
+  border: none;
+
+  box-shadow: none;
+
+  margin: 0px !important;
+  padding: 2% !important;
+
+}
+
+.atuacao .habilidades .videos .img img {
+ width: 100%;
+ height: auto;
+
+ border-radius: 10px;
+
+ background-color: var(--icon);
+
+}
+
+.atuacao .habilidades .videos .img img:hover {
+  width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+
+  background-color: transparent;
+
+}
+
+/* DESENVOLVEDORES */
+.atuacao .desenvolvedores {
+  margin-top: 5%;
+  padding-top: 8%;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(../../assets/img/leaf-plant-bg.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 20%;
+
+  background-color: var(--background-desenvolvedore);
+
+}
+
+.atuacao .desenvolvedores h2, p {
+  color: var(--text-default) !important;
+
+}
+
+.atuacao .desenvolvedores h2 {
+  font-size: 2.5rem !important;
+  font-weight: 700;
+
+  text-align: center;
+
+  padding: 1% !important;
+
+  width: 96%;
+
+}
+
+.atuacao .desenvolvedores p {
+  font-size: 1rem !important;
+
+  text-align: center;
+
+  padding: 1% !important;
+
+  width: 96%;
+
+  color: var(--text-default);
+
+}
+
+.atuacao .desenvolvedores hr {
+  width: 4%;
+
+  margin-top: 2%;
+
+  border-top: 2px solid var(--text-menu-hover);
+  border-right: 0px solid var(--text-default);
+  border-bottom: 0px solid var(--text-default);
+  border-left: 0px solid var(--text-default);
+
+}
+
+.atuacao .desenvolvedores .colaboradores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  margin-top: 5%;
+
+  width: 90%;
+  height: auto;
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde {
+  margin: 3%;
+  padding: 2%;
+
+  width: 34rem;
+  height: auto;
+
+  background-color: var(--background-white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde img {
+  width: 7%;
+  height: auto;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  margin-top: -10%;
+
+  box-shadow: 0px 3px 5px -3px var(--text-default);
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde .perfil {
+  margin-top: 10%;
+  padding: 2%;
+
+  width: 76%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde .perfil p {
+  color: var(--text-gray-bold) !important;
+
+  font-size: 1.1rem !important;
+
+  line-height: 1.7 !important;
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde .perfil h3 {
+  color: var(--text-default) !important;
+
+  font-weight: 800 !important;
+  font-size: 1rem !important;
+
+  padding: 0;
+  margin-top: 3% !important;
+
+  text-align: center;
+
+}
+
+.atuacao .desenvolvedores .colaboradores .carde .perfil h4 {
+  color: var(--texte-gray) !important;
+
+  font-weight: 500 !important;
+  font-size: 0.8rem !important;
+
+  text-align: center;
+
+}
+
+/* REPONSIVIDADE APARTIR DE 600px */
+@media(max-width: 600px) {
+  .pelicula{
+    width: 100%;
+    height: 40vh;
+
+    background-color: #F9F9F490 !important;
+
+    position: relative;
+
+  }
+
+  .slide {
+    width: 100% !important;
+    height: 100% !important;
+
+  }
+
+  .carousel-texto h1 {
+    font-family: 'Vollkorn', serif !important;
+    font-weight: 700 !important;
+    font-size: 1.7rem !important;
+
+    color: var(--text-default) !important;
+
+  }
+
+  .carousel-texto h3 {
+    font-family: 'Vollkorn', serif !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+
+    color: var(--text-default) !important;
+
+  }
+
+  .carousel-texto p {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 0.5rem !important;
+
+    color: var(--text-default) !important;
+
+  }
+
+  .sobreNos .swot {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-wrap: wrap;
+
+    padding: 2%;
+
+  }
+
+  .sobreNos .swot .opcao {
+    width: 100% !important;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .sobreNos .swot .opcao i {
+    padding: 5%;
+
+    background-color: var(--icon-background);
+
+    color: var(--icon);
+
+    border-radius: 50%;
+
+    box-shadow: 0px 3px 5px -3px var(--icon);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .sobreNos .swot .opcao .conteudo {
+    padding: 10%;
+
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+  }
+
+  .sobreNos .swot .opcao .conteudo h2, p {
+    color: var(--text-default) !important;
+
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    text-align: center;
+
+  }
+
+  .sobreNos .swot .opcao .conteudo h2 {
+    font-size: 1.1rem !important;
+    font-family: 'Oxygen', sans-serif !important;
+    font-weight: 700 !important;
+
+  }
+
+  .sobreNos .swot .opcao .conteudo p {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+
+    color: var(--text-default);
+
+    text-align: center;
+
+  }
+
+  .atuacao .habilidades .itens .bloco {
+    margin: 2%;
+    padding: 4%;
+
+    width: 80%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid var(--border-gray);
+    border-radius: 10px;
+
+    box-shadow: 0px 3px 5px -3px var(--icon);
+
+  }
+
+  .atuacao .habilidades .itens .bloco i {
+    padding: 5%;
+
+    background-color: var(--icon-background);
+
+    color: var(--icon);
+
+    border-radius: 50%;
+
+    box-shadow: 0px 3px 5px -3px var(--icon);
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .atuacao .habilidades .itens .bloco h2 {
+    margin-top: 10% !important;
+
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    color: var(--text-default) !important;
+
+    font-size: 1.1rem !important;
+
+  }
+
+  .atuacao .habilidades .itens .bloco p {
+    width: 80%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 1rem !important;
+
+    color: var(--text-default) !important;
+
+  }
+
+  .atuacao .desenvolvedores .colaboradores .carde .perfil {
+    margin-top: 10%;
+    padding: 2%;
+
+    width: 96%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+}

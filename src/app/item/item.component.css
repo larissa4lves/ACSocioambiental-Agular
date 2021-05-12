@@ -1,0 +1,67 @@
+.conteudo-produto {
+  /*background-color: tomato;*/
+
+  margin: 5%;
+
+  width: 90%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo-produto .produto {
+  /*background-color: turquoise;*/
+
+  width: 40% !important;
+  height: auto;
+
+}
+
+.conteudo-produto .produto .img{
+    overflow: hidden; /*para a imagem não aumentar inteira, continuar no limite que determinei*/
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+}
+
+.conteudo-produto .produto .img img{
+    width: 100%;
+    height: auto;
+
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform, .5s ease;
+}
+
+.conteudo-produto .produto .img:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.conteudo-produto .produto .botoes {
+  padding: 1% 3% !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.conteudo-produto .produto .botoes .btn {
+  margin: 1%;
+
+}
+
+.conteudo-produto .botao {
+  width: 100%;
+  height: auto;
+
+}
