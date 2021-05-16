@@ -45,16 +45,13 @@ form {
 }
 
 #background{
-<<<<<<< HEAD
-<<<<<<< HEAD
+    
     background-image: url('https://i.imgur.com/bb9JVPq.jpg');
-=======
     background-image: url('https://i.imgur.com/bb9JVPq.jpeg');
->>>>>>> 25a5be65b683d82adc12e107ef977d77ae0abd52
     min-height: 695px;
-=======
+
     background-image: url('https://i.imgur.com/bb9JVPq.jpg');
->>>>>>> 6ba19d3a55b79d2e591d8c4e2c10de51a9735364
+    background-image: url('https://i.imgur.com/bb9JVPq.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
